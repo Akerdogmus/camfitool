@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/camfitool/badge)](https://www.codefactor.io/repository/github/akerdogmus/camfitool)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
-![current_version](https://img.shields.io/github/v/release/inomuh/camfitool?color=green) ![last_commit](https://img.shields.io/github/last-commit/inomuh/Camera-Fault-Injection-Tool?color=green) ![tool version](https://img.shields.io/badge/version-standart-blue) ![repo_size](https://img.shields.io/github/repo-size/inomuh/Camera-Fault-Injection-Tool) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/Camera-Fault-Injection-Tool?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/camfitool)
+![current_version](https://img.shields.io/github/v/release/inomuh/camfitool?color=green) ![last_commit](https://img.shields.io/github/last-commit/inomuh/Camera-Fault-Injection-Tool?color=green) ![tool version](https://img.shields.io/badge/version-standard-blue) ![repo_size](https://img.shields.io/github/repo-size/inomuh/Camera-Fault-Injection-Tool) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/Camera-Fault-Injection-Tool?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/camfitool)
 
 This tool is a simple interface that allows injection of image faults into robot cameras. Thanks to this interface, you can create new image libraries by injecting the fault types you have determined, both real-time to ROS cameras, and to the image libraries previously recorded by these cameras. For more information about the purpose of this tool: https://arxiv.org/abs/2108.13803
 
@@ -53,7 +53,7 @@ Update v1.2 - 10.11.21
 - Added RGB Camera FI types (Open, Close, Erosion, Dilation, Gradient and Motion-blur). Now this interface supports two camera types and nine fault types.
 - Added Robot Cam button. This button provides to show active ROS camera (tried ROS Noetic) screen (User must enter ROS Camera topic name).
 - Robot Camera section is active now. User can enter ROS camera topic name for fault injection and enter ROS fault injecting stream frequency value.
-- Added Real-time FI plan saving standart. This plan saving is different than Offline FI plan ones.
+- Added Real-time FI plan saving standard. This plan saving is different than Offline FI plan ones.
 - Some bug fixes, new error pop-up messages and other things.
 
 Update v1.2.1 - 01.12.21
