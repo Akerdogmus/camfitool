@@ -94,13 +94,16 @@ def str_splitter(str_to_split):
 def open_website(url):
     webbrowser.open(url)
 
-def camfitool_web(self):
+def camfitool_web():
     url = "https://github.com/inomuh/camfitool"
     open_website(url)
-    # self.pop_up_info_message('This section will be added!')
-def valu3s_web(self):
-    url="https://valu3s.eu"
+
+
+def valu3s_web():
+    url = "https://valu3s.eu"
     open_website(url)
-def imtgd_web(self):
-    url="https://www.inovasyonmuhendislik.com/"
+
+
+def imtgd_web():
+    url = "https://www.inovasyonmuhendislik.com/"
     open_website(url)
