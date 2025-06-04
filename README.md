@@ -155,6 +155,14 @@ If the code or data help you, please cite the following the papers.
         key = {cite}, 
         author = {Yayan, Uğur and Erdoğmuş, Alim Kerem} 
      }
+### Running tests
+
+Run the unit tests with:
+
+```bash
+python -m pytest
+```
+
 
 ### License
 
