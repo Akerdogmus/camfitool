@@ -85,9 +85,7 @@ def get_class_names(train_dir):
 
 
 def str_splitter(str_to_split):
-    """
-    Stringi split eder.
-    """
+    """Split a string by '/' and return the last segment."""
     return str_to_split.split("/")[-1]
 
 
